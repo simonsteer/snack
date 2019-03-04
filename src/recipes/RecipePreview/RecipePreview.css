@@ -1,0 +1,13 @@
+.recipes-recipepreview {
+  position: relative;
+}
+
+.recipes-recipepreview.md {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.recipes-recipepreview.sm {
+  width: 325px;
+}

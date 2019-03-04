@@ -1,0 +1,32 @@
+.interface-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
+
+.interface-text.sm {
+  line-height: 23px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+.interface-text.md {
+  line-height: 29px;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+}
+
+.interface-text.lg {
+  font-size: 50px;
+  letter-spacing: 0.02em;
+  margin: 0 0 10px 0;
+}
+
+.interface-text.wrapper-sm,
+.interface-text.wrapper-md,
+  {
+  margin: 10px 0 10px 0;
+}
+
+.interface-text.wrapper-lg {
+  margin: 0 0 10px 0;
+}

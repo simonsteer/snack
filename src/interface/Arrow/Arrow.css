@@ -1,0 +1,20 @@
+.interface-arrow {
+  border-style: solid;
+  display: inline-block;
+}
+
+.interface-arrow:hover {
+  cursor: pointer;
+}
+
+.interface-arrow.up {
+  transform: rotate(90deg);
+}
+
+.interface-arrow.down {
+  transform: rotate(270deg);
+}
+
+.interface-arrow.right {
+  transform: rotate(180deg);
+}
